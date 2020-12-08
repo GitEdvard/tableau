@@ -1,0 +1,7 @@
+Dependencies between Clarity configuration and Tableau reports
+
+Clarity configuration action	Tableau report		Query
+------------------------------------------------------------------------------------------------------------------------
+New protocol			Sample_queues		FC allocation in Clarity, Smp per project protocoll	Protocoltype will automatically be "8. Bioinfo steps"
+Change protocol name		Sample_queues		FC allocation in Clarity, Smp per project protocoll	Protocoltype will automatically be "8. Bioinfo steps"
+Split udf Number of lanes	Sample_queues		FC allocation in Clarity				Calculated field, has_flowcell_udf, has_lane_udf

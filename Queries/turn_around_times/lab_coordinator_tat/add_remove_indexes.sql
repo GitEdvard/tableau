@@ -1,0 +1,1 @@
+create index ix_snpseq_artifact_sample_map_a on artifact_sample_map (artifactid)
